@@ -1,6 +1,6 @@
-Problem Statement: https://www.hackerrank.com/challenges/weather-observation-station-5/problem
-Difficulty: Easy
-Score: 30
+# Problem Statement: https://www.hackerrank.com/challenges/weather-observation-station-5/problem
+# Difficulty: Easy
+# Score: 30
 
 - query 1
 SELECT CITY, LENGTH(CITY) FROM STATION
