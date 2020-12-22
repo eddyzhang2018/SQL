@@ -24,4 +24,10 @@ WHERE
 
 SELECT DISTINCT CITY FROM STATION
 WHERE LEFT(CITY,1) in ('a','e','i','o','u')
-    AND RIGHT(CITY,1) in ('a','e','i','o','u')
+    AND RIGHT(CITY,1) in ('a','e','i','o','u');
+
+- MySQL query using REGULAR EXPRESSION
+# reference: Rodney Shaghoulian, https://www.hackerrank.com/challenges/weather-observation-station-8/forum
+
+SELECT DISTINCT CITY FROM STATION
+WHERE CITY REGEXP '^[aeiou].*[aeiou]$';
