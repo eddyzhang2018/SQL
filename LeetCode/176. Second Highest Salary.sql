@@ -1,0 +1,8 @@
+# Task: Write a SQL query to get the second highest salary from the Employee table.
+# Problem Statement: https://leetcode.com/problems/second-highest-salary/
+# Difficulty: Easy
+
+- MySQL query:
+
+SELECT MAX(Salary) as SecondHighestSalary FROM Employee
+WHERE Salary < (SELECT MAX(Salary) FROM Employee);
