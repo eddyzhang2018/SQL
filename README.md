@@ -6,4 +6,4 @@ My practice SQL code from LeetCode and Hackerrank
 
 ## Function
 
-COUNT() - for unique counnt - it can use COUNT(DISTINCT expression).
+COUNT() - for unique count - it can use COUNT(DISTINCT expression).
