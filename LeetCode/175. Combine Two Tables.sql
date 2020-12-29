@@ -4,6 +4,8 @@
 
 - MySQL query:
 
+# can also use abbr for each table or schema. e.g. Person as p, Address as a. Then it is simple for on p.PersonID = a.PersonID.
+
 SELECT FirstName, LastName, City, State
 FROM Person
     LEFT JOIN Address
