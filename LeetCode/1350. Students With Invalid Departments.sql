@@ -1,5 +1,5 @@
 # Task: Write an SQL query to find the id and the name of all students who are enrolled in departments that no longer exists.
-# Problem Statements: https://leetcode.com/problems/students-with-invalid-departments/
+# Problem Statement: https://leetcode.com/problems/students-with-invalid-departments/
 # Difficulty: Easy
 
 - MySQL query:
