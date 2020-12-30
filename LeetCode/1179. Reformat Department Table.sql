@@ -20,7 +20,7 @@ SELECT id,
 FROM Department
 PIVOT
 (SUM(revenue)
- FOR month in (Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec)
+ FOR month in ("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
  ) AS PVT
 Order by id ASC;
 
