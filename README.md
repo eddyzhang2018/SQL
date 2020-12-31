@@ -1,12 +1,12 @@
 # SQL
-SQL query code
 
-My practice SQL code from LeetCode and Hackerrank
+Here I save my SQL code from Hackerrack and Leetcode.
 
+I also provide some information about SQL in the following sections.
 
-## Function
+## SQL Function
 
-COUNT() - for unique count - it can use COUNT(DISTINCT expression).
+1. COUNT() is a function which returns number of rows for specified criterion. To do count on unique value, it can use COUNT(DISTINCT expression).
 
 
 ## Statistic Functions
