@@ -12,7 +12,7 @@ I also provide some information about SQL in the following sections.
 
 ## Statistic Functions
 
-How to get mode in MySQL?
+### How to get mode in MySQL?
 
 In Excel, the formulat =MODE() to return the most frequent values in a range of numeric values. However, there is no equivalent functions in MySQL.
 
