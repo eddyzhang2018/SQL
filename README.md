@@ -25,3 +25,7 @@ GROUP BY numeric_values
 ORDER BY Mode DESC LIMIT 1;
 ```
 So, we use COUNT in conjunction with GROUP BY to get counts for each numerci values in a column. and then use ORDER BY DESC LIMIT 1 to show the top count only.
+
+## SQL others
+
+`:=` is used to assign a value to a variable. 
