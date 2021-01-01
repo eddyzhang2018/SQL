@@ -34,7 +34,7 @@ FROM
 FROM OCCUPATIONS as o1) as o2
 GROUP BY o2.rnk
 
-- MySQL Queyr version 2 (with similar idea above but using ITERATIONS):
+- MySQL Query version 2 (with similar idea above but using ITERATIONS):
 # Reference 1: Yuji Shen (@YujiShen), https://www.hackerrank.com/challenges/occupations/forum/comments/114779
 # Reference 2: Yanger Rai (@raiyanger24), https://www.hackerrank.com/challenges/occupations/forum/comments/731399
 
