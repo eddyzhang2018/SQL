@@ -1,6 +1,6 @@
 # SQL
 
-Here I save my SQL code from Hackerrack and Leetcode.
+Here I save my SQL code from Hackerrack and Leetcode, I also save some people's code if they use different methods (their online user name, link are written in the reference line of the code)
 
 I also provide some information about SQL in the following sections.
 
