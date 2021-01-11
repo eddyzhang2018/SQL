@@ -16,7 +16,7 @@ I also provide some information about SQL in the following sections.
 
 ### How to get mode in MySQL?
 
-In Excel, the formulat =MODE() to return the most frequent values in a range of numeric values. However, there is no equivalent functions in MySQL.
+In Excel, the formula =MODE() to return the most frequent values in a range of numeric values. However, there is no equivalent functions in MySQL.
 
 However, we can always use some methods to get Mode in MySQL.
 
