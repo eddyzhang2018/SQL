@@ -19,6 +19,18 @@ OUTPUT: HelloWorld
 
 * COUNT() is a function which returns number of rows for specified criterion. To do count on unique value, it can use COUNT(DISTINCT expression).
 
+* SUBSTRING() is a function which extracts some parts from a string.
+
+```
+  SELECT SUBSTRING('SQL is awesome', 1, 3) AS newString;
+
+OUTPUT: 
+
+newString
+SQL
+
+```
+
 * For ROW_NUMBER in SQL Server, please refer to : https://www.c-sharpcorner.com/blogs/rownumber-function-with-partition-by-clause-in-sql-server1
 
 ## Statistic Functions
