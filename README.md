@@ -13,7 +13,9 @@ I also provide some information about SQL in the following sections.
 ```
   SELECT CONTACT('Hello','World') as new
 
-  OUTPUT: HelloWorld
+  OUTPUT: 
+  new
+  HelloWorld
 
 ```
 
