@@ -8,6 +8,15 @@ I also provide some information about SQL in the following sections.
 
 * AVG() is a function which returns the mean value of a column. The column must only have numerical values.
 
+* CONCAT() is a function adding two string value together.
+
+```
+SELECT CONTACT('Hello','World') as new
+
+OUTPUT: HelloWorld
+
+```
+
 * COUNT() is a function which returns number of rows for specified criterion. To do count on unique value, it can use COUNT(DISTINCT expression).
 
 * For ROW_NUMBER in SQL Server, please refer to : https://www.c-sharpcorner.com/blogs/rownumber-function-with-partition-by-clause-in-sql-server1
