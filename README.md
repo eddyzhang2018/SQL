@@ -11,9 +11,9 @@ I also provide some information about SQL in the following sections.
 * CONCAT() is a function adding two string value together.
 
 ```
-SELECT CONTACT('Hello','World') as new
+  SELECT CONTACT('Hello','World') as new
 
-OUTPUT: HelloWorld
+  OUTPUT: HelloWorld
 
 ```
 
@@ -24,10 +24,10 @@ OUTPUT: HelloWorld
 ```
   SELECT SUBSTRING('SQL is awesome', 1, 3) AS newString;
 
-OUTPUT: 
+  OUTPUT: 
 
-newString
-SQL
+  newString
+  SQL
 
 ```
 
@@ -42,10 +42,10 @@ In Excel, the formula =MODE() to return the most frequent values in a range of n
 However, we can always use some methods to get Mode in MySQL.
 
 ```
-SELECT COUNT(numeric_values) AS Mode 
-FROM table1
-GROUP BY numeric_values
-ORDER BY Mode DESC LIMIT 1;
+  SELECT COUNT(numeric_values) AS Mode 
+  FROM table1
+  GROUP BY numeric_values
+  ORDER BY Mode DESC LIMIT 1;
 ```
 So, we use COUNT in conjunction with GROUP BY to get counts for each numerci values in a column. and then use ORDER BY DESC LIMIT 1 to show the top count only.
 
