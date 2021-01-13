@@ -54,3 +54,7 @@ So, we use COUNT in conjunction with GROUP BY to get counts for each numerci val
 ## SQL others
 
 `:=` is used to assign a value to a variable. 
+
+## SQL resources
+
+The website https://sqliteonline.com/ provide an online IDE environment for SQL. You can create your schema and test if your query works when you don't want to open your desktop version SQL.
