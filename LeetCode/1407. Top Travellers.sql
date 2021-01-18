@@ -8,8 +8,8 @@ SELECT a.name, CASE WHEN SUM(b.distance) IS NULL THEN 0 ELSE SUM(b.distance) END
 FROM Users as a
 LEFT JOIN Rides as b
 ON a.id = b.user_id
-GROUP BY name
-ORDER BY travelled_distance DESC, name ASC
+GROUP BY a.name (#better to use a.id to avoid duplicates in names)
+ORDER BY travelled_distance DESC, a.name ASC
 
 - MySQL query (If Statement):
 
@@ -17,5 +17,5 @@ SELECT a.name, IF(SUM(b.distance) IS NULL,0,SUM(b.distance))AS travelled_distanc
 FROM Users as a
 LEFT JOIN Rides as b
 ON a.id = b.user_id
-GROUP BY name
-ORDER BY travelled_distance DESC, name ASC
+GROUP BY a.name (#better to use a.id to avoid duplicates in names)
+ORDER BY travelled_distance DESC, a.name ASC
