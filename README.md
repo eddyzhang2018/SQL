@@ -52,7 +52,15 @@ Some functions in SQL helps to manipulate date releted data. Here is a brief lis
   2018-07-14
 ```
 
-* DATEDIFF()
+* DATEDIFF(date1, date2). The function returns the number of days between the two dates.
+
+```
+ SELECT DATEDIFF("2021-01-01", "2020-12-25");
+ 
+ OUTPUT:
+ 7
+
+```
 
 * TO_DAYS()
 
