@@ -41,8 +41,19 @@ I also provide some information about SQL in the following sections.
 
 ### Date Function Group
 
-* DATE_ADD()
+Some functions in SQL helps to manipulate date releted data. Here is a brief list of them:
+
+* DATE_ADD(date, INTERVAL value addunit). It allows to add a date/time interval to a date and return the date, and the three parameters are all required. The date variable can either be a single data point or a date variable column (set). Interval is a must input where value addunit tells the unit (e.g. MINUTE, HOUR, DAY ect.) to add and how much to add. 
+
+```
+  SELECT DATE_ADD("2018-09-14", INTERVAL -2 MONTH);
+  
+  OUTPUT:
+  2018-07-14
+```
+
 * DATEDIFF()
+
 * TO_DAYS()
 
 ## Statistic Functions
