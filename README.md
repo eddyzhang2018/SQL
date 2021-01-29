@@ -39,6 +39,12 @@ I also provide some information about SQL in the following sections.
 
 * For ROW_NUMBER in SQL Server, please refer to : https://www.c-sharpcorner.com/blogs/rownumber-function-with-partition-by-clause-in-sql-server1
 
+### Date Function Group
+
+* DATE_ADD()
+* DATEDIFF()
+* TO_DAYS()
+
 ## Statistic Functions
 
 ### How to get mode in MySQL?
