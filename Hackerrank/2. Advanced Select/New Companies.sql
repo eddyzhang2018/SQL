@@ -2,7 +2,7 @@
 # Difficulty: Medium
 # Score: 30
 
-- MySQL query (without using JOINS):
+- # MySQL query (without using JOINS):
 
 SELECT  c.company_code, 
         c.founder, 
@@ -21,3 +21,5 @@ WHERE c.company_code = lm.company_code AND
       m.company_code = e.company_code
 GROUP BY c.company_code, c.founder
 ORDER BY c.company_code;
+
+- # MySQL query (using sub-query and makes count in subqueries)
