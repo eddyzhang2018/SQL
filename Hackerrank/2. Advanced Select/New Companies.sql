@@ -23,3 +23,9 @@ GROUP BY c.company_code, c.founder
 ORDER BY c.company_code;
 
 - # MySQL query (using sub-query and makes count in subqueries)
+
+WORKING
+
+- # MySQL query (using JOINS)
+
+WORKING
