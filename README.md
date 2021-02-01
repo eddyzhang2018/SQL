@@ -25,6 +25,8 @@ I also provide some information about SQL in the following sections.
 
 * COUNT() is a function which returns number of rows for specified criterion. To do count on unique value, it can use COUNT(DISTINCT expression).
 
+* ROUND(var, decimicals). Performing rounding of numbers to digits specified in the function.
+
 * SUBSTRING() is a function which extracts some parts from a string.
 
 ```
