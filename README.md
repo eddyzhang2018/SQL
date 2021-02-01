@@ -25,6 +25,26 @@ I also provide some information about SQL in the following sections.
 
 * COUNT() is a function which returns number of rows for specified criterion. To do count on unique value, it can use COUNT(DISTINCT expression).
 
+* FIND_IN_SET(string, string list). The function returns the (first) position of the string (first input in the formula) in the string list (the second input in the formula). It returns 0 when can't find or the string list is empty. It returns NULL when the string list is NULL. Here are two example to clarify what it can find and can't.
+
+```
+SELECT FIND_IN_SET("q", "s,q,l")
+
+OUTPUT:
+2
+
+SELECT FIND_IN_SET("q", "s,q,l,s,q,l")
+
+OUTPUT:
+2
+
+SELECT FIND_IN_SET("q", "sql")
+
+OUTPUT:
+0
+
+```
+
 * GROUP_CONCAT(). The function returns a string (value) with concatenated __non-NULL__ value from a group. A good example can be found here: https://www.w3resource.com/mysql/aggregate-functions-and-grouping/aggregate-functions-and-grouping-group_concat.php
 
 * ROUND(var, decimicals). Performing rounding of numbers to digits specified in the function.
