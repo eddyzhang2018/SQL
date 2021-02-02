@@ -20,3 +20,10 @@ SELECT a.Num AS ConsecutiveNums
 FROM v2Logs AS a, v2Logs AS b, v2Logs AS c
 WHERE a.Num = b.Num AND b.Num = c.Num AND a.NumRow = b.NumRow - 1 AND b.NumRow = c.NumRow - 1
 GROUP BY a.Num
+
+- # MySQL (alternative using arithmetic operations)
+# Reference: luokiss39, https://leetcode.com/problems/consecutive-numbers/discuss/321205/Runtime%3A-299-ms-faster-than-94.39
+
+select distinct Num as ConsecutiveNums
+from Logs
+where (Id + 1, Num) in (select * from Logs) and (Id + 2, Num) in (select * from Logs)
