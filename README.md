@@ -61,6 +61,17 @@ OUTPUT:
 
 ```
 
+* TRUNCATE() truncates a number to a specified digits of decimal places.
+
+```
+  SELECT TRUNCATE(255.998877, 5)
+  
+  OUTPUT:
+  
+  255.99887
+
+```
+
 * For ROW_NUMBER in SQL Server, please refer to : https://www.c-sharpcorner.com/blogs/rownumber-function-with-partition-by-clause-in-sql-server1
 
 ### Date Function Group
