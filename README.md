@@ -61,7 +61,7 @@ OUTPUT:
 
 ```
 
-* TRUNCATE() truncates a number to a specified digits of decimal places.
+* TRUNCATE(number, decimals) truncates a number to a specified digits of decimal places.
 
 ```
   SELECT TRUNCATE(255.998877, 5)
