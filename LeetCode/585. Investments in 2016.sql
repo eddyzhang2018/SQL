@@ -5,6 +5,8 @@
 # Problem Statement: https://leetcode.com/problems/investments-in-2016/
 # Difficulty: Medium
 
+# MySQL Solution:
+
 SELECT ROUND(SUM(insurance.TIV_2016),2) AS TIV_2016 FROM insurance
 WHERE PID IN 
 (SELECT PID FROM insurance GROUP BY LAT, LON HAVING COUNT(*) = 1 )
